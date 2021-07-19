@@ -40,17 +40,6 @@
 
 Demo del Proyecto. Desplegado con [Vercel](https://vercel.com/): [Carrito de la compra con React](https://uah-frameworks-frontend-trabajo-final-react.vercel.app/)
 
-Párrafo 1
-
-Lista:
-* Contenido 1
-* Contenido 2
-* Contenido 3
-
-Párrafo 2
-
-Párrafo 3
-
 ### Stack
 
 En esta sección se listan las tecnologías, frameworks, librerías y otras herramientas o recursos relevantes usados para la realización del proyecto.
