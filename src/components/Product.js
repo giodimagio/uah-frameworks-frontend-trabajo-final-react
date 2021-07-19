@@ -13,7 +13,12 @@ export default function Product(props) {
 	return (
 		<div className={`card ${productStyle.cardSize}`}>
 			<div className="card-body">
-				<img src={product.imageUrl} className={`card-img-top ${productStyle.boxImg}`} alt={product.id}></img>
+				<img
+					src={product.imageUrl}
+					className={`card-img-top ${productStyle.boxImg} ${(product.stock <= 0) ? productStyle.imgDisabled : ""}`}
+					alt={product.id}
+					disabled={product.stock <= 0}
+				/>
 				<h5 className="card-title fw-bold">
 					{product.name}
 				</h5>

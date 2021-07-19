@@ -1,6 +1,9 @@
 .imgProduct {
     border-radius: 10px;
 }
+.imgDisabled {
+    opacity: 0.5;
+}
 .boxImg:hover {
     transform: scale(1.5);
     box-shadow: 5px 5px 5px black;
